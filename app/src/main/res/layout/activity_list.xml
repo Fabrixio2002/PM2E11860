@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#E4E5E3"
+    android:orientation="vertical"
+    tools:context=".ActivityList">
+
+    <ListView
+        android:id="@+id/listcontactos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E5E6E4"
+        android:textAlignment="center" />
+</LinearLayout>
